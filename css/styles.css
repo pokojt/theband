@@ -1,22 +1,38 @@
+
+
 body {
   background-color: #D9D9D9;
   text-align: left;
 }
 
+.bandinfo {
+  margin: 10px;
+  border: 3px solid black;
+  float: left;
+  background-color: white;
+
+}
+
 .sidebar {
   background-color: #663333;
   color: white;
+  border: 50px;
+  border-color: black;
   width: 30%;
   float: right;
-  padding-bottom: 40px;
+  padding: 40px;
+  margin: 10px;
 }
 .column {
   width: 500px;
   float: left;
+  background-color: white;
+  padding: 3px;
 }
 
 h1 {
   text-align: center;
+  border: 10px #663333;
 }
 
 .img {
@@ -25,6 +41,8 @@ h1 {
   margin-right: auto;
   width: 700px;
   height: auto;
+  padding: 40px;
+  border: 10px solid black;
 }
 
 .img2 {
